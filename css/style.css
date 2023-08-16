@@ -869,7 +869,7 @@ textarea.input {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  padding: 0.5rem 0.1875rem;
+  padding: 0.5rem 0.1875rem !important;
   background-color: transparent;
   border-bottom: 1px solid #fff;
   opacity: 0.6;
@@ -1423,7 +1423,7 @@ textarea.input {
   width: 188.8333333333%;
   padding-bottom: 115%;
   right: -10%;
-  top: -40%;
+  top: -30%;
   z-index: 0;
   pointer-events: none;
 }
@@ -2766,7 +2766,7 @@ textarea.input {
   }
 
   .creations__bottom {
-    margin-top: -12.5rem;
+    margin-top: -10rem;
   }
 
   .creations__title {
@@ -3327,29 +3327,29 @@ textarea.input {
 }
 
 @media (min-width: 61.99875em) and (max-width: 102.5em) {
-@supports (margin-top: clamp( -12.5rem , 25.4617913027rem  +  -37.0358939539vw , 2.5rem )) {
+@supports (margin-top: clamp( -10rem , 21.6348260856rem  +  -30.8632449616vw , 2.5rem )) {
     .creations__bottom {
-      margin-top: clamp( -12.5rem , 25.4617913027rem  +  -37.0358939539vw , 2.5rem );
+      margin-top: clamp( -10rem , 21.6348260856rem  +  -30.8632449616vw , 2.5rem );
     }
 }
 
-@supports not (margin-top: clamp( -12.5rem , 25.4617913027rem  +  -37.0358939539vw , 2.5rem )) {
+@supports not (margin-top: clamp( -10rem , 21.6348260856rem  +  -30.8632449616vw , 2.5rem )) {
     .creations__bottom {
-      margin-top: calc(2.5rem + -15 * (100vw - 61.99875rem) / 40.50125);
+      margin-top: calc(2.5rem + -12.5 * (100vw - 61.99875rem) / 40.50125);
     }
 }
 }
 
 @media (min-width: 47.99875em) and (max-width: 61.99875em) {
-@supports (margin-top: clamp( -18.75rem , 8.9280133929rem  +  -44.6428571429vw , -12.5rem )) {
+@supports (margin-top: clamp( -15.625rem , 12.0530133929rem  +  -44.6428571429vw , -9.375rem )) {
     .creations__images-block {
-      margin-top: clamp( -18.75rem , 8.9280133929rem  +  -44.6428571429vw , -12.5rem );
+      margin-top: clamp( -15.625rem , 12.0530133929rem  +  -44.6428571429vw , -9.375rem );
     }
 }
 
-@supports not (margin-top: clamp( -18.75rem , 8.9280133929rem  +  -44.6428571429vw , -12.5rem )) {
+@supports not (margin-top: clamp( -15.625rem , 12.0530133929rem  +  -44.6428571429vw , -9.375rem )) {
     .creations__images-block {
-      margin-top: calc(-12.5rem + -6.25 * (100vw - 47.99875rem) / 14);
+      margin-top: calc(-9.375rem + -6.25 * (100vw - 47.99875rem) / 14);
     }
 }
 }
