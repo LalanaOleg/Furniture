@@ -3451,8 +3451,8 @@
             modules: [ Navigation, Autoplay ],
             observer: true,
             observeParents: true,
-            slidesPerView: 1,
-            spaceBetween: 20,
+            slidesPerView: 3,
+            spaceBetween: 0,
             autoHeight: true,
             speed: 800,
             watchOverflow: true,
@@ -3467,7 +3467,7 @@
                 nextEl: ".swiper-button-next"
             },
             breakpoints: {
-                320: {
+                280: {
                     slidesPerView: 1,
                     spaceBetween: 30
                 },
